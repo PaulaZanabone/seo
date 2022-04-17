@@ -1,0 +1,80 @@
+@import "index";
+
+.tituloPrincipal{
+    text-align: center;
+    color: #f7b0c8;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 200px 300px 200px 200px 200px 200px;
+     a{
+    text-decoration-line: none;
+}
+}
+
+vasos{ 
+   
+    font-size: 35px;
+    display: inline; 
+    color: #ffffff; 
+    &:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
+}
+
+.botellas{ 
+   
+    font-size: 35px;
+    display: inline;
+    color: #ffffff;
+
+    &:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
+}
+
+.organizadores{
+    display:flex;
+    text-decoration-line: none;
+    font-size: 35px;  
+    color: #ffffff;  
+    &:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
+}
+
+.mates{ 
+    font-size: 35px;
+    display: inline;
+    color: #ffffff;   
+     &:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
+}
+
+.bowls{
+    font-size: 35px;
+    display:inline;    
+    color: #ffffff;;
+    
+    &:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
+}
+
+.contacto{
+    font-size: 35px;
+    display:inline; 
+    color: #ffffff;;   
+    &:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
+}

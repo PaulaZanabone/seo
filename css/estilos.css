@@ -1,0 +1,489 @@
+
+                                                     /*INDEX*/
+
+
+/*Titulo principal: las totas*/
+
+
+.tituloPrincipal{
+    text-align: center;
+    color: #f7b0c8;
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+/*pseudoclases1*/
+
+
+.vasos::before{
+    content:"♥"
+}
+.organizadores::before{
+    content: "♥";
+}
+.botelltas::before{
+    content: "♥";
+}
+.mates::before{
+    content:"♥";
+}
+.bowls::before{
+    content:"♥";
+}
+.contacto::before{
+    content: "♥";
+}
+
+.vasos::after{
+    content:"♥"
+}
+.organizadores::after{
+    content:"♥"
+}
+.botellas::after{
+    content:"♥"
+}
+.mates::after{
+    content:"♥"
+}
+.bowls::after{
+    content:"♥";
+}
+.contacto::after{
+ content:"♥"
+}
+/*titulos fotos index*/
+
+.fotos_index a{
+text-decoration-line: none;
+}
+.titulovasosindex{
+    position: relative;
+font-size: 25px;
+color: #b0f7cc;
+font-weight: bold;
+left:100px;
+}
+
+.tituloorganizadoresindex{
+    position: relative;
+    font-size: 25px;
+    color: #b0f7cc;
+    font-weight: bold;
+    left:50px;
+}
+
+.titulobotellaindex{
+    position: relative;
+    font-size: 25px;
+    color: #b0f7cc;
+    font-weight: bold;
+    left:80px;
+}
+
+
+
+                                              /*Menu +  bootstrap*/
+
+.menu{
+     font-family:'Amatic SC', cursive;
+    display: flex;
+    justify-content:center;
+    background-color: #f7b0c9;
+    color: white;
+   
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 200px 300px 200px 200px 200px 200px;
+}
+.menu  a{
+    text-decoration-line: none;
+}
+
+.vasos{ 
+   
+    font-size: 35px;
+    display: inline; 
+    color: #ffffff; 
+}
+
+.vasos:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
+
+
+
+.botellas{ 
+   
+    font-size: 35px;
+    display: inline;
+    color: #ffffff;
+}
+
+.botellas:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
+
+.organizadores{
+    display:flex;
+    text-decoration-line: none;
+    font-size: 35px;  
+    color: #ffffff;  
+}
+
+.organizadores:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
+
+.mates{ 
+    font-size: 35px;
+    display: inline;
+    color: #ffffff;   
+}
+
+.mates:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
+
+.bowls{
+    font-size: 35px;
+    display:inline;    
+    color: #ffffff;;
+    
+}
+
+
+.bowls:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
+.contacto{
+    font-size: 35px;
+    display:inline; 
+    color: #ffffff;;   
+}
+
+.contacto:hover{
+    font-size: 45px ;
+    transition: font size 2s;
+}
+/*Subtítulos dentro del menu - los que no están en el index*/
+.vaso1{   
+   
+    display:flex;
+    left:10px;
+    bottom:50px;
+    color: #b0f7cc;  
+   
+}
+
+
+.mateAntiVuelco1{  
+    color: #b0f7cc;
+    position:relative;
+    left:50px;
+    bottom:10px;
+}
+
+.Diaria{
+
+   color: #b0f7cc;
+   left: 100px; 
+}
+
+.botellita_Kids{
+    position: relative;
+    text-align:center ;
+    color: #b0f7cc;
+    right:100px;
+
+}
+
+.bowl{
+    color: #b0f7cc;
+}
+.minibowlstitulo{
+    position: relative;
+    color: #b0f7cc;
+    left: 100px;
+}
+
+.subtitulo_Canastam{
+display: flex;
+color:#b0f7cc;
+left:50px;
+    
+}
+
+.subtituloOrganizador{
+    position: relative;
+    bottom: 400px;
+    left:700px;
+    color: #b0f7cc;
+}
+
+
+
+/* Titulos principales dentro del menu */
+
+.titulovasostermicos{  
+    text-align: center;
+    color: #b0f7cc;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+}
+
+ .titulovasostermicos a{
+     text-decoration-line:none ;
+ }
+
+
+
+.titulobotellas{
+    text-decoration-line: none;
+    text-align: center;  
+    color: #b0f7cc; 
+    font-family: "Amatic SC", cursive;
+    font-size: 45px; 
+}
+
+.titulomates{
+    text-decoration: none;
+    text-align: center;
+    color: #b0f7cc;
+    font-family: "Amatic SC", cursive;
+    font-size: 45px;
+    
+}
+
+
+.titulobowl{
+    text-decoration: none;
+    text-align: center;
+    color: #b0f7cc; 
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+}
+
+
+.tituloOrganizadores{
+    text-decoration: none;
+    text-align: center;
+    color: #b0f7cc;   
+    font-family:'Amatic SC', cursive ;
+    font-size: 45px;
+}
+
+
+
+
+.tituloContactanos{ 
+    text-decoration: none;
+    text-align: center;
+    color: #b0f7cc;   
+    font-family:"Amatic SC", cursive ;
+    font-size: 45px;
+}
+
+/*Ubicación fotos*/
+.vasos1{
+    bottom:100px;
+   right: 200px;
+}
+.textovasos{
+    right:200px;
+    top:130px;
+
+}
+
+.fotomate{
+   bottom:30px;
+   left:50px;
+}
+
+.imagen_botella{ 
+    top: 100px;
+    right:200px;
+}
+.botellita_kids{
+    top:100px;
+    right:100px;
+}
+
+.padrefotosindex{
+    display: flex;
+    
+}
+.fotos_index{
+    margin-left: 100px;
+    bottom: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.canastitas_img{
+top:30px;
+}
+
+.parrafocanastita1{
+ position:relative;
+ left:300px;
+ bottom:200px;
+}
+.organizador_img{
+    position: relative;
+    bottom:400px;
+    left:650px;
+}
+.parrafoorganizador{
+    position: relative;
+    left:950px;
+    bottom:580px;
+}
+
+
+/* ubicación labels*/
+/*vasos térmicos*/
+.elegieltuyovasos{
+    position: relative;
+    top:50px;
+}
+.elegivasos{
+    position:relative;
+    top: 50px;
+}
+/*organizadores*/   
+.elegieltuyoorganizador{
+    position: relative;
+    bottom:450px
+}
+
+.elegiorganizadores{
+    position:relative;
+    bottom:450px;
+}
+/*botellas*/
+
+.elegieltuyobotella{
+    position: relative;
+    top:10px;
+}
+.elegibotellas{
+    position:relative;
+    top:10px;
+}
+
+/*mates*/
+.elegieltuyomates{
+    position:relative;
+    top:5px;
+    left:50px;
+}
+.elegimates{
+    position:relative;
+    top:5px;
+    left: 50px;
+}
+
+
+/*ubicación y animaciones cajas contactanos*/
+
+.form-control-contanos{
+    position: relative;
+    left:60px;
+    top:10px;
+    width: 500px;
+}
+.floatingTextarea{
+    position: relative;
+    bottom:170px;
+    
+}
+
+
+
+/*footer*/
+
+.seguinos{
+    position: relative;
+    padding-left: 600px;
+    left:50px;
+     padding-top: 250px;
+    
+}
+
+.logoInstagram{
+    position: relative;
+    padding-left: 50px;
+    right:25px;
+}
+
+
+
+
+/*                                   GRIDS                           */
+
+/*botellas*/
+.padre_botellas{
+   display: grid;
+   grid-template-areas: 
+   "padrebotellas"
+   "label"
+   "footer";
+   grid-template-columns: 500px 500px;
+   grid-template-rows: 3fr;
+}
+
+
+/*bowls*/
+.padre_bowls{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 9fr ;
+    grid-template-areas: 
+    "padre_bowls"
+    "elemento_bowl"
+    "bowl"
+    "bowlrosamedida"
+    "elemento_bowl2"
+    "minisbowlstitulo"
+    "fotominibowls"
+    "label"
+    "footer";
+}
+
+
+    /*       MOBILE RESPONSIVE */
+@media screen and (max-width: 480px) {
+
+/*index*/
+.padrefotosindex{
+    display: flex;
+    flex-flow: row wrap;
+}
+/*pestaña vasos*/
+.padrevasos1{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/*pestaña botellas*/
+.padre_botellas{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/*pestaña organizadores*/
+
+
+/*pestaña bowls*/
+.padre_bowls{
+    display: flex;
+    flex-flow: row wrap;
+}}
