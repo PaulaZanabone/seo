@@ -1,0 +1,55 @@
+/*Título principal dentro de la pestaña*/
+
+.tituloOrganizadores{
+    text-decoration: none;
+    text-align: center;
+    color: #b0f7cc;   
+    font-family:'Amatic SC', cursive ;
+    font-size: 45px;
+}
+/*subtitulos dentro de la pestaña organizadores con su texto descriptivo*/
+.subtituloOrganizador{
+    position: relative;
+    bottom: 400px;
+    left:700px;
+    color: #b0f7cc;
+}
+.subtitulo_Canastam{
+    display: flex;
+    color:#b0f7cc;
+    left:50px;
+        
+}
+
+.canastitas_img{
+    top:30px;
+    }
+    
+    .parrafocanastita1{
+     position:relative;
+     left:300px;
+     bottom:200px;
+    }
+    .organizador_img{
+        position: relative;
+        bottom:400px;
+        left:650px;
+    }
+    .parrafoorganizador{
+        position: relative;
+        left:950px;
+        bottom:580px;
+    }
+    
+
+/*labels*/
+
+.elegieltuyoorganizador{
+    position: relative;
+    bottom:450px
+}
+
+.elegiorganizadores{
+    position:relative;
+    bottom:450px;
+}

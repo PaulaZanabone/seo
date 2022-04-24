@@ -1,80 +1,40 @@
+@import "variables";
+@import "botellas";
+@import "bowls";    
+@import "contactanos";                                
 @import "index";
+@import "mates";
+@import "organizadores";
+@import "vasos";
 
-.tituloPrincipal{
-    text-align: center;
-    color: #f7b0c8;
-    font-family: 'Pacifico', cursive;
-}
 
-.menu{
-    display: grid;
-    grid-template-columns: 200px 300px 200px 200px 200px 200px;
-     a{
-    text-decoration-line: none;
-}
-}
-
-vasos{ 
+    /*       MOBILE RESPONSIVE */
    
-    font-size: 35px;
-    display: inline; 
-    color: #ffffff; 
-    &:hover{
-    font-size: 45px ;
-    transition: font size 2s;
+@media screen and (max-width: 480px) {
+*/
+/*index*/
+
+.padrefotosindex{
+    display: flex;
+    flex-flow: row wrap;
 }
+/*pestaña vasos*/
+
+.padrevasos1{
+    display: flex;
+    flex-flow: row wrap;
 }
 
-.botellas{ 
+/*no se de que quedo */
+
+
+/*pestaña organizadores*/
+
+
+/*pestaña bowls*/
+
+.padre_bowls{
+    display: flex;
+    flex-flow: row wrap;
+}}
    
-    font-size: 35px;
-    display: inline;
-    color: #ffffff;
-
-    &:hover{
-    font-size: 45px ;
-    transition: font size 2s;
-}
-}
-
-.organizadores{
-    display:flex;
-    text-decoration-line: none;
-    font-size: 35px;  
-    color: #ffffff;  
-    &:hover{
-    font-size: 45px ;
-    transition: font size 2s;
-}
-}
-
-.mates{ 
-    font-size: 35px;
-    display: inline;
-    color: #ffffff;   
-     &:hover{
-    font-size: 45px ;
-    transition: font size 2s;
-}
-}
-
-.bowls{
-    font-size: 35px;
-    display:inline;    
-    color: #ffffff;;
-    
-    &:hover{
-    font-size: 45px ;
-    transition: font size 2s;
-}
-}
-
-.contacto{
-    font-size: 35px;
-    display:inline; 
-    color: #ffffff;;   
-    &:hover{
-    font-size: 45px ;
-    transition: font size 2s;
-}
-}

@@ -1,4 +1,5 @@
 
+
 .tituloPrincipal{
     text-align: center;
     color: #f7b0c8;
@@ -6,75 +7,143 @@
 }
 
 
-.menu{
-    display: grid;
-    grid-template-columns: 200px 300px 200px 200px 200px 200px;
-     a{
-    text-decoration-line: none;
+
+/*pseudoclases1*/
+
+
+.vasos::before{
+    content:"♥"
 }
+.organizadores::before{
+    content: "♥";
+}
+.botelltas::before{
+    content: "♥";
+}
+.mates::before{
+    content:"♥";
+}
+.bowls::before{
+    content:"♥";
+}
+.contacto::before{
+    content: "♥";
 }
 
-vasos{ 
-   
-    font-size: 35px;
-    display: inline; 
-    color: #ffffff; 
-    &:hover{
-    font-size: 45px ;
-    transition: font size 2s;
+.vasos::after{
+    content:"♥"
 }
+.organizadores::after{
+    content:"♥"
 }
-
-.botellas{ 
-   
-    font-size: 35px;
-    display: inline;
-    color: #ffffff;
-
-    &:hover{
-    font-size: 45px ;
-    transition: font size 2s;
+.botellas::after{
+    content:"♥"
 }
+.mates::after{
+    content:"♥"
+}
+.bowls::after{
+    content:"♥";
+}
+.contacto::after{
+ content:"♥"
 }
 
-.organizadores{
-    display:flex;
-    text-decoration-line: none;
-    font-size: 35px;  
-    color: #ffffff;  
-    &:hover{
-    font-size: 45px ;
-    transition: font size 2s;
+/*titulos fotos index*/
+
+.fotos_index a{
+text-decoration-line: none;
 }
+.titulovasosindex{
+    position: relative;
+    font-size: 25px;
+    color: #b0f7cc;
+    font-weight: bold;
+    left:100px;
 }
 
-.mates{ 
-    font-size: 35px;
-    display: inline;
-    color: #ffffff;   
-     &:hover{
-    font-size: 45px ;
-    transition: font size 2s;
-}
+.tituloorganizadoresindex{
+    position: relative;
+    font-size: 25px;
+    color: #b0f7cc;
+    font-weight: bold;
+    left:50px;
 }
 
-.bowls{
-    font-size: 35px;
-    display:inline;    
-    color: #ffffff;;
-    
-    &:hover{
-    font-size: 45px ;
-    transition: font size 2s;
-}
+.titulobotellaindex{
+    position: relative;
+    font-size: 25px;
+    color: #b0f7cc;
+    font-weight: bold;
+    left:80px;
 }
 
-.contacto{
-    font-size: 35px;
-    display:inline; 
-    color: #ffffff;;   
-    &:hover{
-    font-size: 45px ;
-    transition: font size 2s;
-}
-}
+                                              /*Menu +  bootstrap*/
+  .menu{
+  font-family:'Amatic SC', cursive;
+   display: flex;
+ justify-content:center;
+   background-color: #f7b0c9;
+ color: white;
+                                              
+  }
+                                           
+  .menu{
+   display:flex;
+ a{
+  text-decoration-line: none;
+  }
+                                           
+  .vasos{   
+   font-size: 35px;
+ &:hover{
+  font-size: 45px ;
+  transition: font size 2s;
+ }
+                                                                             
+  .botellas{ 
+                                              
+  font-size: 35px;
+   display: inline;
+  color: #ffffff;
+  &:hover{
+  font-size: 45px ;
+  transition: font size 2s;
+   }
+                                           
+ .organizadores{
+ display:flex;
+  text-decoration-line: none;
+ font-size: 35px;  
+  color: #ffffff;  
+ &:hover{
+   font-size: 45px ;
+transition: font size 2s;
+   }
+                                           
+ .mates{ 
+ font-size: 35px;
+display: inline;
+color: #ffffff;   
+ &:hover{
+  font-size: 45px ;
+  transition: font size 2s;
+  }
+                                           
+  .bowls{
+   font-size: 35px;
+  display:inline;    
+   color: #ffffff;;
+   &:hover{
+ font-size: 45px ;
+  transition: font size 2s;
+ }
+ .contacto{
+  font-size: 35px;
+  display:inline; 
+  color: #ffffff;   
+  &:hover{
+   font-size: 45px ;
+   transition: font size 2s;
+  }
+  }

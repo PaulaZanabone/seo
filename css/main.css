@@ -1,119 +1,95 @@
-.tituloPrincipal {
-  text-align: center;
-  color: #f7b0c8;
-  font-family: 'Pacifico', cursive; }
+/*subtitulos de fotos */
+.vaso1 {
+  display: flex;
+  left: 10px;
+  bottom: 50px;
+  color: #b0f7cc; }
 
-.menu {
-  display: grid;
-  grid-template-columns: 200px 300px 200px 200px 200px 200px; }
-  .menu a {
+.mateAntiVuelco1 {
+  color: #b0f7cc;
+  position: relative;
+  left: 50px;
+  bottom: 10px; }
+
+.Diaria {
+  color: #b0f7cc;
+  left: 100px; }
+
+.botellita_Kids {
+  position: relative;
+  text-align: center;
+  color: #b0f7cc;
+  right: 100px; }
+
+bowl {
+  color: #b0f7cc; }
+
+.minibowlstitulo {
+  position: relative;
+  color: #b0f7cc;
+  left: 100px; }
+
+.subtitulo_Canastam {
+  display: flex;
+  color: #b0f7cc;
+  left: 50px; }
+
+.subtituloOrganizador {
+  position: relative;
+  bottom: 400px;
+  left: 700px;
+  color: #b0f7cc; }
+
+/*titulos principales dentro del menu*/
+.titulovasostermicos {
+  text-align: center;
+  color: #b0f7cc;
+  font-family: 'Amatic SC', cursive;
+  font-size: 45px; }
+  .titulovasostermicos a {
     text-decoration-line: none; }
 
-vasos {
-  font-size: 35px;
-  display: inline;
-  color: #ffffff; }
-  vasos:hover {
-    font-size: 45px;
-    transition: font size 2s; }
-
-.botellas {
-  font-size: 35px;
-  display: inline;
-  color: #ffffff; }
-  .botellas:hover {
-    font-size: 45px;
-    transition: font size 2s; }
-
-.organizadores {
-  display: flex;
+.titulobotellas {
   text-decoration-line: none;
-  font-size: 35px;
-  color: #ffffff; }
-  .organizadores:hover {
-    font-size: 45px;
-    transition: font size 2s; }
-
-.mates {
-  font-size: 35px;
-  display: inline;
-  color: #ffffff; }
-  .mates:hover {
-    font-size: 45px;
-    transition: font size 2s; }
-
-.bowls {
-  font-size: 35px;
-  display: inline;
-  color: #ffffff; }
-  .bowls:hover {
-    font-size: 45px;
-    transition: font size 2s; }
-
-.contacto {
-  font-size: 35px;
-  display: inline;
-  color: #ffffff; }
-  .contacto:hover {
-    font-size: 45px;
-    transition: font size 2s; }
-
-.tituloPrincipal {
   text-align: center;
-  color: #f7b0c8;
-  font-family: 'Pacifico', cursive; }
-
-.menu {
-  display: grid;
-  grid-template-columns: 200px 300px 200px 200px 200px 200px; }
-  .menu a {
+  color: #b0f7cc;
+  font-family: "Amatic SC", cursive;
+  font-size: 45px; }
+  .titulobotellas a {
     text-decoration-line: none; }
 
-vasos {
-  font-size: 35px;
-  display: inline;
-  color: #ffffff; }
-  vasos:hover {
-    font-size: 45px;
-    transition: font size 2s; }
+.titulomates {
+  text-decoration: none;
+  text-align: center;
+  color: #b0f7cc;
+  font-family: "Amatic SC", cursive;
+  font-size: 45px; }
+  .titulomates a {
+    text-decoration-line: none; }
 
-.botellas {
-  font-size: 35px;
-  display: inline;
-  color: #ffffff; }
-  .botellas:hover {
-    font-size: 45px;
-    transition: font size 2s; }
+.titulobowl {
+  text-decoration: none;
+  text-align: center;
+  color: #b0f7cc;
+  font-family: 'Amatic SC', cursive;
+  font-size: 45px; }
+  .titulobowl a {
+    text-decoration-line: none; }
 
-.organizadores {
-  display: flex;
-  text-decoration-line: none;
-  font-size: 35px;
-  color: #ffffff; }
-  .organizadores:hover {
-    font-size: 45px;
-    transition: font size 2s; }
+.tituloOrganizadores {
+  text-decoration: none;
+  text-align: center;
+  color: #b0f7cc;
+  font-family: 'Amatic SC', cursive;
+  font-size: 45px; }
+  .tituloOrganizadores a {
+    text-decoration-line: none; }
 
-.mates {
-  font-size: 35px;
-  display: inline;
-  color: #ffffff; }
-  .mates:hover {
-    font-size: 45px;
-    transition: font size 2s; }
-
-.bowls {
-  font-size: 35px;
-  display: inline;
-  color: #ffffff; }
-  .bowls:hover {
-    font-size: 45px;
-    transition: font size 2s; }
-
-.contacto {
-  font-size: 35px;
-  display: inline;
-  color: #ffffff; }
-  .contacto:hover {
-    font-size: 45px;
-    transition: font size 2s; }
+.tituloContactanos {
+  text-decoration: none;
+  text-align: center;
+  color: #b0f7cc;
+  font-family: "Amatic SC", cursive;
+  font-size: 45px; }
+  .tituloContactanos a {
+    text-decoration-line: none; }

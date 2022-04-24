@@ -1,0 +1,59 @@
+
+/*titulo pestaña vasos térmicos*/
+.vaso1{    
+    display:flex;
+    left:10px;
+    bottom:50px;
+    color: #b0f7cc;  
+   
+}
+/*subtitulo*/
+.titulovasostermicos{  
+    text-align: center;
+    color: #b0f7cc;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    a{
+    text-decoration-line:none ;
+}}
+
+/*ubicación fotos*/
+
+.vasos1{
+    bottom:100px;
+    right: 200px;
+}
+
+
+/*texto descriptivo*/
+
+.textovasos{
+    right:200px;
+    top:130px;
+
+}
+
+
+
+/*ubicación lebels*/
+/*vasos térmicos*/
+
+.elegieltuyovasos{
+    position: relative;
+    top:50px;
+}
+.elegivasos{
+    position:relative;
+    top: 50px;
+}
+
+/*mixin*/
+
+@mixin sizes ($bottom, $right) {
+   bottom:$bottom;
+   right:$right
+}
+
+.vasos1{
+    @include sizes(100,200 )
+}

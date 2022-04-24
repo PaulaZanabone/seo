@@ -1,4 +1,3 @@
-
                                                      /*INDEX*/
 
 
@@ -53,6 +52,7 @@
 .contacto::after{
  content:"♥"
 }
+
 /*titulos fotos index*/
 
 .fotos_index a{
@@ -60,10 +60,10 @@ text-decoration-line: none;
 }
 .titulovasosindex{
     position: relative;
-font-size: 25px;
-color: #b0f7cc;
-font-weight: bold;
-left:100px;
+    font-size: 25px;
+    color: #b0f7cc;
+    font-weight: bold;
+    left:100px;
 }
 
 .tituloorganizadoresindex{
@@ -96,8 +96,8 @@ left:100px;
 }
 
 .menu{
-    display: grid;
-    grid-template-columns: 200px 300px 200px 200px 200px 200px;
+display:flex;
+
 }
 .menu  a{
     text-decoration-line: none;
@@ -174,7 +174,12 @@ left:100px;
     font-size: 45px ;
     transition: font size 2s;
 }
+
+
+
 /*Subtítulos dentro del menu - los que no están en el index*/
+
+
 .vaso1{   
    
     display:flex;
@@ -183,7 +188,6 @@ left:100px;
     color: #b0f7cc;  
    
 }
-
 
 .mateAntiVuelco1{  
     color: #b0f7cc;
@@ -228,7 +232,6 @@ left:50px;
     left:700px;
     color: #b0f7cc;
 }
-
 
 
 /* Titulos principales dentro del menu */
@@ -282,8 +285,6 @@ left:50px;
 }
 
 
-
-
 .tituloContactanos{ 
     text-decoration: none;
     text-align: center;
@@ -292,7 +293,9 @@ left:50px;
     font-size: 45px;
 }
 
-/*Ubicación fotos*/
+
+/* Ubicación fotos*/
+
 .vasos1{
     bottom:100px;
    right: 200px;
@@ -347,9 +350,9 @@ top:30px;
     bottom:580px;
 }
 
-
 /* ubicación labels*/
 /*vasos térmicos*/
+
 .elegieltuyovasos{
     position: relative;
     top:50px;
@@ -359,6 +362,7 @@ top:30px;
     top: 50px;
 }
 /*organizadores*/   
+
 .elegieltuyoorganizador{
     position: relative;
     bottom:450px
@@ -380,6 +384,7 @@ top:30px;
 }
 
 /*mates*/
+
 .elegieltuyomates{
     position:relative;
     top:5px;
@@ -410,18 +415,18 @@ top:30px;
 
 /*footer*/
 
-.seguinos{
+.redes{
     position: relative;
     padding-left: 600px;
     left:50px;
-     padding-top: 250px;
+    padding-top: 250px;
     
 }
 
 .logoInstagram{
     position: relative;
     padding-left: 50px;
-    right:25px;
+    left:630px;
 }
 
 
@@ -430,6 +435,7 @@ top:30px;
 /*                                   GRIDS                           */
 
 /*botellas*/
+
 .padre_botellas{
    display: grid;
    grid-template-areas: 
@@ -439,9 +445,8 @@ top:30px;
    grid-template-columns: 500px 500px;
    grid-template-rows: 3fr;
 }
-
-
 /*bowls*/
+
 .padre_bowls{
     display: grid;
     grid-template-columns: 500px 500px;
@@ -460,20 +465,24 @@ top:30px;
 
 
     /*       MOBILE RESPONSIVE */
+   
 @media screen and (max-width: 480px) {
-
+*/
 /*index*/
+/*
 .padrefotosindex{
     display: flex;
     flex-flow: row wrap;
 }
 /*pestaña vasos*/
+
 .padrevasos1{
     display: flex;
     flex-flow: row wrap;
 }
 
 /*pestaña botellas*/
+/*
 .padre_botellas{
     display: flex;
     flex-flow: row wrap;
@@ -483,7 +492,9 @@ top:30px;
 
 
 /*pestaña bowls*/
+
 .padre_bowls{
     display: flex;
     flex-flow: row wrap;
 }}
+   

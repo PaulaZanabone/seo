@@ -1,0 +1,59 @@
+/*título*/
+.titulobotellas{
+    text-decoration-line: none;
+    text-align: center;  
+    color: #b0f7cc; 
+    font-family: "Amatic SC", cursive;
+    font-size: 45px; 
+}
+
+
+/*subtítulos*/
+.Diaria{
+
+    color: #b0f7cc;
+    left: 100px; 
+ }
+ 
+ .botellita_Kids{
+     position: relative;
+     text-align:center ;
+     color: #b0f7cc;
+     right:100px;
+ 
+ }
+ 
+ /*ubicación fotos*/
+ 
+.imagen_botella{ 
+    top: 100px;
+    right:200px;
+}
+.botellita_kids{
+    top:100px;
+    right:100px;
+}
+/*labels*/
+.elegieltuyobotella{
+    position: relative;
+    top:10px;
+}
+.elegibotellas{
+    position:relative;
+    top:10px;
+}
+
+/*grids*/
+
+.padre_botellas{
+    display: grid;
+    grid-template-areas: 
+    "padrebotellas"
+    "label"
+    "footer";
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 3fr;
+    .padre_botellas{
+    display: flex;
+    flex-flow: row wrap;
+}}

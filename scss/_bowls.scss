@@ -1,0 +1,49 @@
+/*titulo*/
+.titulobowl{
+    text-decoration: none;
+    text-align: center;
+    color: #b0f7cc; 
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+}
+
+
+/*subtítulos*/
+.bowl{
+    color: #b0f7cc;
+}
+.minibowlstitulo{
+    position: relative;
+    color: #b0f7cc;
+    left: 100px;
+}
+
+/*Ubicación fotos*/
+.padrefotosindex{
+    display: flex;
+    
+}
+.fotos_index{
+    margin-left: 100px;
+    bottom: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*grids*/
+.padre_bowls{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 9fr ;
+    grid-template-areas: 
+    "padre_bowls"
+    "elemento_bowl"
+    "bowl"
+    "bowlrosamedida"
+    "elemento_bowl2"
+    "minisbowlstitulo"
+    "fotominibowls"
+    "label"
+    "footer";
+}
